@@ -27,7 +27,7 @@ color_extract = [(254, 253, 249), (247, 254, 252), (254, 249, 252), (176, 155, 1
 tim.setheading(225)
 tim.forward(300)
 tim.setheading(0)
-numbers_of_dots = 1000
+numbers_of_dots = 10000
 
 for count_dot in range(1, numbers_of_dots + 1):
     tim.dot(5, random.choice(color_extract))
